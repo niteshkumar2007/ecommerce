@@ -1,0 +1,313 @@
+#Navbar {
+  border: 1px solid black;
+  height: 90px;
+  width: 1243px;
+  background-color: rgba(170, 136, 170, 0.926);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  margin-left: -18px;
+  z-index: 999;
+}
+#imageshoping {
+  width: 40px;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  ;
+}
+#Heading0 {
+  margin: auto;
+  font-size: 70px;
+  color: rgb(79, 70, 71);
+}
+#LInk1 {
+  float: right;
+  margin-right: 80px;
+  font-size: x-large;
+  color: rgb(78, 48, 48);
+  font-family: 'Times New Roman', Times, serif;
+}
+#LInk1:hover {
+  color: blue;
+}
+#button1:hover {
+  color: rgb(241, 235, 235);
+  background-color: rgb(90, 147, 90);
+}
+#button1 {
+  position: absolute;
+  top: 20px;
+  right: 58px;
+  padding: 10px 25px;
+  background-color: rgb(231, 227, 236);
+  color: rgb(130, 12, 12);
+  border-radius: 7px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+}
+#Div1 {
+  height: 500px;background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)),
+    url('Download\ Clothing\ rack\ with\ different\ clothes\ on\ wooden\ floor\ in\ modern\ dressing\ room\,\ Clothing\ on\ hanger\ at\ the\ modern\ shop\ boutique\,\ AI\ Generated\ for\ free.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  margin-top: 108px;
+  width: 1258px;
+  margin-left: -5px;
+  
+}
+product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 280px); 
+    gap: 30px;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color: #fcfcfc;
+}
+.product-card {
+    width: 280px;
+    background: #ffffff;
+    border: 1px solid #eaeaea;
+    border-radius: 4px;
+    overflow: hidden;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+ .product-card:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+    transform: translateY(-5px);
+}
+
+.product-card img {
+    width: 280px;
+    height: 370px;
+    object-fit: cover; /* Image stretch nahi hogi */
+    display: block;
+}
+.product-info {
+    padding: 15px;
+}
+
+.product-info h3 {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #222;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.product-info p {
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+
+.price {
+    font-size: 17px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 15px !important;
+}
+
+.add-btn {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: background 0.3s ease;
+}
+
+.add-btn:hover {
+    background-color: #333;
+}
+@media (max-width: 1200px) {
+    .product-grid {
+        grid-template-columns: repeat(2, 280px);
+    }
+}
+
+@media (max-width: 600px) {
+    .product-grid {
+        grid-template-columns: repeat(1, 280px);
+    }
+}
+
+
+footer #Div2 {
+  border: 1px solid black;
+  width: 1250px;
+  height: 450px;
+  border-radius: 20px;
+}
+#headingb {
+  float: right;
+  margin-top: 0%;
+  padding-right: 350px;
+  display: inline;
+  font-size: 70px;
+  color: rgb(79, 70, 71);
+}
+#heading1 {
+  margin-top: 10px;
+  display: inline-block;
+  padding-left: 350px;
+  font-size: 45px;
+  color: white;
+}
+#paragraph1 {
+  margin-top: 128px;
+  padding-left: 130px;
+  font-size: 20px;
+  font-weight: 700;
+  font-style: oblique;
+  text-align: justify;
+  padding-right: 50px;
+  color: rgb(0, 0, 0);
+}
+#shopbutton {
+  position: absolute;
+  top: 30pc;
+  left: 33pc;
+  padding: 20px 30px;
+  font-size: x-large;
+  border-radius: 30px;
+  background-color: rgb(79, 70, 71);
+  color: rgb(0, 0, 0);
+}
+#shopbutton:hover {
+  background-color: rgb(150, 201, 150);
+  color: white;
+}
+#heading2 {
+  font-size: xx-large;
+  text-align: center;
+  margin-top: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#paragraph2 {
+  text-align: center;
+  margin-top: 0%;
+  font-weight: 800;
+  font-style: oblique;
+}
+#imagediv {
+  width: 100%;
+  height: 75%;
+  padding-top: 0%;
+  border-radius: 25px;
+}
+#Divesheading {
+  margin-top: 0%;
+  margin-left: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
+  padding-left: 20px;
+}
+#divesparagraph {
+  margin-top: 0%;
+  margin-left: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
+  padding-top: 0%;
+  padding-left: 10px;
+}
+#priceheading {
+  color: green;
+  font-size: 30px;
+  padding-left: 15px;
+  padding-bottom: 30px;
+  padding-top: 0%;
+  margin-top: 0%;
+  display: inline-block;
+}
+#divesbutton {
+  margin-left: 200px;
+  margin-top: 0%;
+  padding-top: px;
+  padding-left: px;
+  padding-right: px;
+  padding-bottom: px;
+  position: absolute;
+  top: 105;
+  margin-right: 400pc;
+  display: inline-block;
+  font-size: 13px;
+  white-space: nowrap;
+  background-color: rgb(81, 149, 81);
+  color: white;
+  border-radius: 6px;
+}
+#divesbutton:hover {
+  background-color: white;
+  color: black;
+}
+.main-footer {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 60px 0 20px 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.footer-column {
+  flex: 1;
+  min-width: 250px;
+  margin-bottom: 30px;
+}
+.footer-column h3 {
+  color: #8a2be2;
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.footer-column p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+.footer-links li {
+  margin-bottom: 12px;
+}
+.footer-links a {
+  color: #ccc;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.footer-links a:hover {
+  color: white;
+  padding-left: 8px;
+ }
+ .footer-bottom {
+  text-align: center;
+  border-top: 1px solid #333;
+  padding-top: 20px;
+  margin-top: 20px;
+  font-size: 13px;
+  color: #777;
+}
